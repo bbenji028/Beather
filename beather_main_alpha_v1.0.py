@@ -1,0 +1,37 @@
+import time
+print("Üdv! Ez itt a Beather, bbenji028-tól ❤️-el készítve.")
+time.sleep(6)
+print("A nevéből adódoan lehet ítélni, hogy ez egy időjárás alkalmazás.")
+time.sleep(6)
+print("Felteszek pár kérdést a lokációddal kapcsolatban, ez kötelező az alkalmazás működéséhez.")
+time.sleep(6)
+print("Ha nem akarsz megadni adatokat, akkor zárd be még most az alkalmazást!")
+time.sleep(4)
+orszag = input("Magyarország időjárását szeretnéd megtekinteni? (igen/nem)").lower()
+if orszag.lower() == "igen":
+    print("Rendben!")
+    time.sleep(5)
+    varos = input("Jelenleg csak Budapest időjárást tudod megtekinteni. Tovább szeretnél haladni?").lower()
+else:
+    print("Jelenleg csak Budapest városának időjárását tudod megtekinteni, mely Magyarországon található. Nyisd meg újra, ha megszeretnéd nézni Budapestét!")
+    time.sleep(8)
+    exit()
+
+if varos.lower() == ("igen"):
+    print("Rendben!")
+    time.sleep(4)
+    print("Lekérem a jelenlegi legfrissebb adatokat.")
+    time.sleep(2)
+    print("Lekérem a jelenlegi legfrissebb adatokat..")
+    time.sleep(2)
+    print("Lekérem a jelenlegi legfrissebb adatokat...")
+    time.sleep(5)
+    print("Mivel tél van, valószínüleg hüvös idő lesz, nem 30 fok.")
+    time.sleep(7)
+    print("Remélem, hogy tudtam segíteni, hogy milyen idő lesz!")
+    time.sleep(7)
+    exit()
+else:
+    print("Jelenleg csak Budapest időjárást tudod megtekinteni. Nyisd meg újra az alkalmazást, ha mégis csak megszeretnéd Budapest városának időjárását!")
+    time.sleep(7)
+    exit()
